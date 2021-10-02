@@ -111,3 +111,29 @@ section
     margin-bottom: 50px;
 
 }
+
+
+img{
+    padding: 9px 20px;
+
+    border: none;
+    cursor: pointer;
+    transition:  all 0.3s ease 0s;
+}
+
+img:hover{
+    background-color:  rgba(3, 0, 169, 0.267);
+}
+
+.imgedev{
+    padding: 9px 20px;
+    border: none;
+    cursor: pointer;
+    transition:  all 0.3s ease 0s;
+
+}
+
+.imgedev:hover{
+    background-color:  rgba(3, 0, 169, 0.267);
+}
+
