@@ -1,0 +1,113 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Hammersmith+One&display=swap');
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+p{
+    text-align: justify;
+}
+h2{
+    font-family: 'Hammersmith One', sans-serif; 
+    font-size: 2em; 
+}
+body {
+    background-color: rgb(255, 255, 255);
+    background-image: url("source/gsrad.jpg"); /*determina la imagen de fondo*/
+    background-position: center center;/* Para dejar la imagen de fondo centrada, vertical y horizontalmente */
+    background-repeat: no-repeat;/* Para que la imagen de fondo no se repita */
+    background-attachment: fixed;/* La imagen se fija en la ventana de visualización para que la altura de la imagen no supere a la del contenido */
+    background-size: cover;/* La imagen de fondo se reescala automáticamente con el cambio del ancho de ventana del navegador */
+     /*fondo borroso o blur para el background*/
+     font-family:"Montserrat", sans-serif;
+    
+  }
+  .devider{
+   height: 4px;
+   width: 60px;
+   margin-top: 10px;
+   margin-bottom: 10px;
+   background-color:  rgb(78, 0, 130);
+      
+  }
+  #ZAYSER{
+    font-family:"Montserrat", sans-serif;
+    color: white ;
+    background-color: rgb(78, 0, 130);
+    border-radius: 2px;
+    padding:3px;
+  }
+
+  .container,.proyectos, .habilidades{
+      width: 100vw;
+      height: 100vh;
+      background-color:rgb(29, 29, 31); 
+
+  }
+
+
+  
+/*header clases */
+ li, a{
+     font-family:"Montserrat", sans-serif;
+     font-weight: 500;
+     font-size: 16px;
+     color: black;
+     text-decoration: none;
+ }
+
+ button{
+    font-family:"Montserrat", sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    color: white;
+    text-decoration: none;
+ }
+
+ header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px 10%;
+ }
+ .nav__links {
+    list-style: none;
+ }
+
+ .nav__links li{
+    display: inline-block;
+    padding: 0px 20px;
+}
+.nav__links li a {
+    transition:  all 0.3s ease 0s;
+}
+
+.nav__links li a:hover{
+   color:turquoise
+}
+
+button{
+    padding: 9px 20px;
+    background-color: rgb(59, 0, 169);
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+    transition:  all 0.3s ease 0s;
+}
+
+
+
+button:hover{
+    background-color:  rgba(0, 136,169, 0.8);
+}
+
+/* fin de header clases */
+
+
+section
+{
+    margin-left: 60px;
+    margin-bottom: 50px;
+
+}
