@@ -1,4 +1,4 @@
-name: Deploy to GitHub Pages
+name: Deploy Astro site to GitHub Pages
 
 on:
   push:
@@ -14,24 +14,27 @@ jobs:
   build:
     runs-on: ubuntu-latest
     steps:
-      - name: Checkout repository
+      - name: Checkout repo
         uses: actions/checkout@v4
 
       - name: Setup Node
         uses: actions/setup-node@v3
         with:
-          node-version: 22
+          node-version: 20
 
       - name: Install dependencies
-        run: npm ci # o npm install, o pnpm install según tu proyecto
+        run: npm ci # o pnpm install, según uses
 
       - name: Build with Astro
-        run: npm run build # o pnpm build si usas pnpm
+        run: npm run build
+
+      - name: Disable Jekyll
+        run: echo "" > ./dist/.nojekyll
 
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v2
         with:
-          path: ./dist # Este es el directorio de salida por defecto de Astro
+          path: ./dist
 
   deploy:
     needs: build
