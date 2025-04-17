@@ -113,7 +113,7 @@ export const skills = {
   databaseAndStorage: ["MySQL", "SQLite", "PostgreSQL", "SQL server", "MongoDB"],
   cloudAndDevOps: ["AWS EC2", "SSH", "Linux", "Jenkins", "PM2", "Docker", "Nginix"],
   toolsAndServices: ["DBeaver", "Git", "Git-Hub", "Postman", "NPM", "Vite"],
-  uiUx: ["Figma"],
+  uiUx: ["Figma", "wireframes", "mockups", "Construir interfaces conforme a identidad de la marca"],
   softSkills: [
     "Organización",
     "Liderazgo",
@@ -132,6 +132,19 @@ export const skills = {
     "Responsabilidad"
   ],
   methodologies: ["Scrum"],
+  administrativeSkills: ["Microsoft Office", "Power BI", "Macros en excel", "MS copilot", "chat GPT"],
+  managementSkills: [
+    "Levantamiento de requerimientos",
+    "Comunicación escrita y verbal",
+    "Dirección estratégica",
+    "Soluciones integrales",
+    "Liderar junta de entrega a resultados",
+    "Trato con proveedores",
+    "Trato con otros departamentos",
+    "Soluciones generales",
+    "Arquitectura de software",
+    "Soluciones escalables conforme a lógica de negocio"
+  ],
 };
 
 export const projects = [
