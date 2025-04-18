@@ -135,11 +135,9 @@ export default function HeroSection() {
           <div className="bg-gradient-to-r from-blue-500/10 to-indigo-500/10 backdrop-blur-sm backdrop-filter p-4 rounded-lg border border-blue-500/20 dark:border-blue-500/10 shadow-sm">
             <p className="text-muted-foreground pl-4 py-2 mb-4 relative">
               <span className="absolute left-0 top-0 h-full w-1 bg-gradient-to-b from-blue-500 to-indigo-500 rounded-full"></span>
-              🚀 Soy un desarrollador de software con experiencia construyendo soluciones web modernas,
-              tanto en la parte visual como en la lógica detrás de cada aplicación. 
-              Me apasiona la tecnología y disfruto crear productos funcionales, bien diseñados y fáciles de usar.
-               Tengo conocimientos sólidos en el desarrollo de interfaces intuitivas y en la implementación de sistemas que resuelven problemas reales.
-                Me caracterizo por ser proactivo, con muchas ganas de seguir aprendiendo y aportar valor a cada equipo y proyecto en el que participo.
+              🚀 Soy un desarrollador de software con experiencia construyendo soluciones web modernas, tanto en la parte visual como en la lógica detrás de cada aplicación. Me apasiona la tecnología y disfruto crear productos funcionales, bien diseñados y fáciles de usar. Tengo conocimientos sólidos en el desarrollo de interfaces intuitivas y en la implementación de sistemas que resuelven problemas reales. <br />
+              A lo largo de mi carrera he liderado técnicamente proyectos relacionados con procesos administrativos y también con operaciones dentro de la industria petrolera, lo cual me ha permitido desarrollar una visión amplia y estratégica del ciclo completo del desarrollo de software. He participado en la definición de arquitecturas, toma de decisiones clave, y coordinación de equipos multidisciplinarios. <br />
+              Me destaco por ser proactivo, con una fuerte orientación al trabajo en equipo, la mejora continua y la entrega de valor. Disfruto colaborar estrechamente con distintas áreas, facilitar la comunicación entre perfiles técnicos y no técnicos, y guiar a otros desarrolladores hacia soluciones escalables y sostenibles. Siempre estoy en búsqueda de nuevos retos que me permitan seguir creciendo y aportando valor de forma significativa. <br />
             </p>
           </div>
         </MotionWrapper>

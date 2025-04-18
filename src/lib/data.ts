@@ -14,7 +14,7 @@ export const workExperience = [
     position: "Programador",
     period: "Noviembre 2024 - Actualidad",
     achievements: [
-      "Desarrollo de un conjunto de aplicaciones que tienen como objetivo generar KPI's durante la perforación de pozos petroleros.",
+      "Análisis, levantamiento de requerimientos, diseño de la arquitectura y desarrollo de un conjunto de aplicaciones que tienen como objetivo generar KPI's durante la perforación de pozos petroleros, además de poder ver los parámetros de perforación, todo en tiempo real.",
       "La primera aplicación tienen como fin obtener datos de pozos de perforación (WITSML) y analizarlos, para determinar con base a algoritmos la actividad que se está realizando en el pozo y posteriormente almacenar los datos de perforación y la actividad que se determinó.",
       "La segunda aplicación se encarga de tener un Buffer de información actualizada, está obtenida de la base de datos con el objetivo de ir calculando los KPI's y servir los datos a través una API rest.",
       "La tercera es la aplicación web que sirve para generar reportes y visualizar gráficos interactivos, además de gestionar los distintos pozos que tiene la empresa, tanto los activos, como los que ya están concluidos"
@@ -26,6 +26,7 @@ export const workExperience = [
     position: "Programador Jr.",
     period: "Enero 2023 — Noviembre 2024",
     achievements: [
+      "Análisis, levantamiento de requerimientos, diseño de la arquitectura y desarrollo de aplicaciones web utilizando JavaScript moderno, diseño con Bootstrap y backend con Node.js, innovación con implementación de tecnologías.",
       "Desarrollo de un módulo en el sistema para gestionar el versionamiento de los formatos administrativos de la empresa.",
       "Desarrollo de un módulo en el sistema para la gestión de las solicitudes de alta de artículos en el Almacén.",
       "Desarrollo de un módulo de tickets para la solicitud de soporte al departamento de TI y de igual manera el módulo para gestionar los tickets y un Dashboard para el módulo.",
@@ -96,23 +97,30 @@ export const skills = {
     "Python",
     "Dart",
     "Java",
+    "Visual Basic",
+    "PHP",
     "C#",
   ],
   frontendDevelopment: [
     "Nextjs",
     "React",
-    "Electron",
     "Shadcn UI",
-    "Tailwind CSS",
     "HTML",
     "CSS",
     "DataTables",
     "Bootstrap",
+    "Tailwind CSS",
+    "Sass",
+    "JQuery",
+
+  ],
+  desktopAndMobile : [
+    "Flutter", "Electron"
   ],
   backendDevelopment: ["Nodejs", "Expressjs", "Nextjs", "SOAP", "API REST", "JSON", "XML"],
   databaseAndStorage: ["MySQL", "SQLite", "PostgreSQL", "SQL server", "MongoDB"],
   cloudAndDevOps: ["AWS EC2", "SSH", "Linux", "Jenkins", "PM2", "Docker", "Nginix"],
-  toolsAndServices: ["DBeaver", "Git", "Git-Hub", "Postman", "NPM", "Vite"],
+  toolsAndServices: ["VS code","Visual Studio","DBeaver", "Git", "Git-Hub", "Postman", "NPM", "Vite"],
   uiUx: ["Figma", "wireframes", "mockups", "Construir interfaces conforme a identidad de la marca"],
   softSkills: [
     "Organización",
@@ -145,6 +153,7 @@ export const skills = {
     "Arquitectura de software",
     "Soluciones escalables conforme a lógica de negocio"
   ],
+  oilIndustry:["WITSML", "WITS0"],
 };
 
 export const projects = [
