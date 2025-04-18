@@ -12,7 +12,7 @@ export const workExperience = [
     company: "The Mudlogging Company México",
     location: "Remoto",
     position: "Programador",
-    period: "Noviembre 2024 - Actualidad",
+    period: "Octubre 2024 - Actualidad",
     achievements: [
       "Análisis, levantamiento de requerimientos, diseño de la arquitectura y desarrollo de un conjunto de aplicaciones que tienen como objetivo generar KPI's durante la perforación de pozos petroleros, además de poder ver los parámetros de perforación, todo en tiempo real.",
       "La primera aplicación tienen como fin obtener datos de pozos de perforación (WITSML) y analizarlos, para determinar con base a algoritmos la actividad que se está realizando en el pozo y posteriormente almacenar los datos de perforación y la actividad que se determinó.",
@@ -24,7 +24,7 @@ export const workExperience = [
     company: "Sponyat-Jet",
     location: "Cd del Carmen, Campeche, Mexico",
     position: "Programador Jr.",
-    period: "Enero 2023 — Noviembre 2024",
+    period: "Enero 2023 — Octubre 2024",
     achievements: [
       "Análisis, levantamiento de requerimientos, diseño de la arquitectura y desarrollo de aplicaciones web utilizando JavaScript moderno, diseño con Bootstrap y backend con Node.js, innovación con implementación de tecnologías.",
       "Desarrollo de un módulo en el sistema para gestionar el versionamiento de los formatos administrativos de la empresa.",
